@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bookings and Contact — M Skin Couture</title>
+    <meta
+      name="description"
+      content="Enquire to book a treatment with M Skin Couture. Contact Myriam for consultations and appointments."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Figtree:wght@300;400;500;600&family=Syne:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body data-page="contact">
+    <header class="site-header">
+      <div class="header-left">
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          Menu
+        </button>
+      </div>
+      <a class="logo" href="/" aria-label="M Skin Couture home">
+        <span class="logo-main">M Skin</span>
+        <span class="logo-sub">Couture</span>
+      </a>
+      <div class="header-right">
+        <a class="header-link" href="/contact.html">Book <span>a treatment</span></a>
+      </div>
+    </header>
+
+    <nav id="site-nav" class="nav-overlay" aria-label="Primary">
+      <ul class="nav-list">
+        <li><a href="/treatments.html">Treatments</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/contact.html">Bookings and Contact</a></li>
+      </ul>
+    </nav>
+
+    <main class="page-pad page-top">
+      <div class="about-layout" style="margin-bottom: clamp(2.5rem, 6vw, 4rem)">
+        <div class="reveal">
+          <img
+            src="/images/calm.jpg"
+            alt="Calm treatment room atmosphere"
+            width="1600"
+            height="1067"
+            loading="eager"
+          />
+        </div>
+        <div class="reveal reveal-delay-1" style="align-self: end; color: var(--ink-muted); max-width: 36ch">
+          Bookings are by enquiry. Tell Myriam a little about your skin and the treatment you have
+          in mind — she’ll confirm availability and next steps.
+        </div>
+      </div>
+      <div class="contact-layout">
+        <div class="reveal">
+          <h1>Contact</h1>
+          <p class="contact-meta">
+            Email:
+            <a href="mailto:myriam.bentaou@hotmail.co.uk">myriam.bentaou@hotmail.co.uk</a>
+          </p>
+          <p class="contact-meta" style="margin-top: 1.5rem; max-width: 32ch">
+            Share a little about your skin goals and preferred treatment — Myriam will get back to
+            you to confirm availability.
+          </p>
+        </div>
+
+        <form class="contact-form reveal reveal-delay-1" novalidate>
+          <div class="form-fields">
+            <div class="form-row">
+              <div class="field">
+                <label for="first">First name</label>
+                <input id="first" name="first" type="text" autocomplete="given-name" required />
+              </div>
+              <div class="field">
+                <label for="last">Last name</label>
+                <input id="last" name="last" type="text" autocomplete="family-name" required />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" autocomplete="email" required />
+              </div>
+              <div class="field">
+                <label for="phone">Phone</label>
+                <input id="phone" name="phone" type="tel" autocomplete="tel" />
+              </div>
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <p class="form-note">
+              By sending this form you agree to be contacted about your enquiry. For pricing,
+              please ask — a full price list is available on request.
+            </p>
+            <div class="form-actions">
+              <button class="submit-link" type="submit">Send</button>
+            </div>
+          </div>
+          <div class="form-success" role="status">
+            Thank you — your email client should open with the enquiry ready to send to Myriam.
+            If it did not, write to
+            <a href="mailto:myriam.bentaou@hotmail.co.uk">myriam.bentaou@hotmail.co.uk</a>.
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <a class="logo" href="/">
+        <span class="logo-main">M Skin</span>
+        <span class="logo-sub">Couture</span>
+      </a>
+      <div class="footer-links">
+        <a href="/treatments.html">Treatments</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Contact</a>
+        <a href="mailto:myriam.bentaou@hotmail.co.uk">Email</a>
+      </div>
+      <p class="footer-note">© M Skin Couture · mskincouture.com</p>
+    </footer>
+
+    <script src="/js/main.js"></script>
+  </body>
+</html>
