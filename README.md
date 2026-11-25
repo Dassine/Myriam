@@ -11,6 +11,10 @@ Design language follows [Minimal by Hadda](https://minimalbyhadda.com): cream ca
 - `/about.html` — About Myriam
 - `/contact.html` — Bookings enquiry (mailto)
 
+## Photos
+
+Client photography by **Nacho Rivera** (plus Myriam portraits) lives in `images/` and `images/client/`, sourced from the shared Drive folder.
+
 ## Local preview
 
 ```bash
@@ -18,10 +22,6 @@ python3 -m http.server 8080 --bind 127.0.0.1 --directory .
 ```
 
 Open `http://127.0.0.1:8080`.
-
-## Photos
-
-Client photography (Nacho Rivera / Drive folder) could not be downloaded automatically (Drive returned 401 — folder needs “Anyone with the link” or files uploaded into `images/`). Temporary Unsplash stand-ins are in use; replace them with the client set when available.
 
 ## Domain
 
